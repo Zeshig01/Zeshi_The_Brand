@@ -20,7 +20,7 @@ const CanvasLoader = () => {
           fontWeight: 800,
           marginTop: 40,
         }}>
-        {progress !== 0 ? `${progress.toFixed(2)}%` : 'Loading...'}
+        {progress !== 0 ? `Let Me Load Please ${progress.toFixed(2)}%` : 'Let Me Load Please...'}
       </p>
     </Html>
   );
